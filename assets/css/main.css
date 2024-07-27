@@ -37,6 +37,13 @@ ol, ul {
 	list-style: none;
 }
 
+.title{
+	align-items: center;
+	display: flex;
+	color: black;
+	text-align: center;
+}
+
 blockquote, q {
 	quotes: none;
 }
@@ -4388,15 +4395,16 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
+		font-size: 1.5rem;
+		font-style: none;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 2rem auto 4rem auto;
 		width: calc(100% - 4rem);
-		max-width: 72rem;
+		max-width: 29rem;
 		z-index: 2;
 	}
 
